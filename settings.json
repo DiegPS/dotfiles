@@ -1,0 +1,78 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "typescript.suggest.paths": false, // Disable auto-importing of TS modules path intellisense
+  "javascript.suggest.paths": false, // Disable auto-importing of JS modules path intellisense
+  "workbench.iconTheme": "material-icon-theme", // elegir tema
+  "editor.minimap.enabled": false, // desactivar minimapa
+  "editor.renderWhitespace": "all", // mostrar espacios en blanco
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // formatear con prettier
+  "editor.fontSize": 16, // tamaño de fuente
+  "editor.wordWrap": "on", // ajustar texto
+  "editor.tabSize": 2, // tamaño de tabulación
+  "terminal.integrated.fontSize": 16, // Tamaño de fuente de terminal
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Familia de la fuente
+  "editor.fontLigatures": false, // ligaduras
+  "editor.cursorStyle": "block", // Estilo del cursor: línea delgada
+  "editor.cursorBlinking": "blink", // Animación del cursor
+  "editor.lineHeight": 1.5, // Altura de línea
+  "files.trimFinalNewlines": true, // quitar nuevas lineas
+  "editor.suggestSelection": "first", // seleccionar primera sugerencia
+  "breadcrumbs.enabled": false, // Deshabilita las rutas de navegación
+  "javascript.validate.enable": false, // Deshabilita la validación de JS
+  "workbench.startupEditor": "none", // Deshabilita el editor de inicio
+  "workbench.activityBar.visible": false, // Deshabilita la barra de actividades
+  "window.menuBarVisibility": "toggle", // Deshabilita la barra de menú
+  "editor.glyphMargin": false, // Deshabilita los símbolos de la línea de código (Glyph Margin)
+  "editor.inlineSuggest.enabled": true, // habilita sugerencias
+  "editor.bracketPairColorization.enabled": true, // habilita coloreado de paréntesis
+  "editor.guides.bracketPairs": true, // habilita guías de paréntesis
+  "editor.guides.bracketPairsHorizontal": true, // habilita guías de paréntesis horizontal
+  "explorer.sortOrder": "type", // ordena el explorer por type
+  "editor.formatOnPaste": true, // Formatea el código al pegarlo
+  "editor.formatOnType": true, // Formatea una línea después de escribirla
+  "editor.formatOnSave": true, // Formatea el código al guardar
+  "github.copilot.enable": {
+    // habilita el copilot
+    "*": true, // habilita el copilot en todos los archivos  y carpetas
+    "yaml": false, // deshabilita el copilot en archivos y carpetas con extensión .yaml
+    "plaintext": false, // deshabilita el copilot en archivos y carpetas con extensión .txt
+    "markdown": false // deshabilita el copilot en archivos y carpetas con extensión .md
+  },
+  "editor.linkedEditing": true, // habilita edición enlazada
+  "workbench.editor.tabCloseButton": "off", // Remueve el icono para cerrar pestañas
+  "files.trimTrailingWhitespace": true, // Remueve los espacios en blanco al final de una línea
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font'", // Fuente de la línea de código
+  "timeline.excludeSources": [], // Excluye los archivos de la línea de tiempo
+  "workbench.statusBar.visible": false, // Deshabilita la barra de estado
+  "workbench.colorCustomizations": {
+    "editorGroup.dropBackground": "#3700ff38", // Color de fondo de la pestaña
+    "editor.background": "#0B0D13", // Color de fondo del editor
+    "input.background": "#0B0D13", // Color de fondo del editor
+    "list.hoverBackground": "#4400ff83", // Color de fondo del editor al pasar el cursor por encima
+    "badge.background": "#0B0D13", // Color de fondo de los badges de la barra de estado
+    "panel.background": "#0B0D13", // Color de fondo de los paneles
+    "menu.background": "#10121A", // Color de fondo del menú
+    "sideBar.background": "#10121A", // Color de fondo de la barra lateral
+    "button.background": "#6200ff", // Color de fondo de los botones
+    "input.border": "#6200ff", // Color del borde de los inputs
+    "checkbox.border": "#6200ff", // Color del borde de los checkbox
+    "list.inactiveSelectionBackground": "#36007e56",
+    "list.activeSelectionBackground": "#6200ff", // Color de fondo de la selección activa
+    "editorWidget.background": "#0f111a", // Color de fondo de los widgets de editor
+    "icon.foreground": "#6200ff", // Color del texto de los iconos
+    "focusBorder": "#6200ff", // Color del borde de los inputs
+    "dropdown.border": "#6200ff", // Color del borde de los dropdown
+    "tab.inactiveBackground": "#10121A", // Color de fondo de las pestañas inactivas
+    "tab.activeBorderTop": "#6200ff", // Color de borde superior de la pestaña activa
+    "editorGroupHeader.tabsBackground": "#141620", // Color de fondo de las pestañas de grupo de editor
+    "editor.lineHighlightBackground": "#2903811e", // Color de resaltado de línea
+    "editor.selectionBackground": "#6200ff2a", // Color de resaltado de selección
+    "dropdown.background": "#0B0D13"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#7c4dff"
+  }
+}
