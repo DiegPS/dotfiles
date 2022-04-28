@@ -8,7 +8,7 @@
   "editor.fontLigatures": true, // ligaduras
   "editor.cursorStyle": "block", // Estilo del cursor: línea delgada
   "editor.cursorBlinking": "blink", // Animación del cursor
-  "editor.lineHeight": 1.5, // Altura de línea
+  "editor.lineHeight": 1.8, // Altura de línea
   "files.trimFinalNewlines": true, // quitar nuevas lineas
   "editor.suggestSelection": "first", // seleccionar primera sugerencia
   "breadcrumbs.enabled": false, // Deshabilita las rutas de navegación
@@ -30,7 +30,7 @@
   "workbench.editor.tabCloseButton": "off", // Remueve el icono para cerrar pestañas
   "files.trimTrailingWhitespace": true, // Remueve los espacios en blanco al final de una línea
   "timeline.excludeSources": [], // Excluye los archivos de la línea de tiempo
-  "files.exclude": {
+  "files.exclude": { // archivos excluidos
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -42,7 +42,7 @@
     "package-lock.json": true,
     "yarn.lock": true
   },
-  "search.exclude": {
+  "search.exclude": { // archivos excluidos de la busqueda
     ".git": true,
     ".vscode": true,
     ".yarn": true,
@@ -60,7 +60,7 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.wrapTabs": true,
+  "workbench.editor.wrapTabs": false,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "workbench.editor.enablePreview": false,
@@ -69,9 +69,10 @@
   "editor.fontSize": 16, // tamaño de fuente del editor
   "telemetry.telemetryLevel": "off",
   "settingsSync.keybindingsPerPlatform": false,
-  "editor.suggest.showSnippets": false,
-  "editor.snippetSuggestions": "none",
+  "editor.suggest.showSnippets": false, // ver snippets eliminado
+  "editor.snippetSuggestions": "none", // eliminar sugerencia de snippets
   "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.suggest.completeFunctionCalls": true,
   "typescript.suggest.completeFunctionCalls": true,
   "editor.suggest.preview": true,
@@ -85,7 +86,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact" // usar emmet dentro de JSX
   },
-  "workbench.colorCustomizations": {
+  /*   "workbench.colorCustomizations": {
     "editorGroup.dropBackground": "#3700ff38", // Color de fondo de la pestaña
     "editor.background": "#0B0D13", // Color de fondo del editor
     "input.background": "#0B0D13", // Color de fondo del editor
@@ -118,4 +119,16 @@
   "editor.tokenColorCustomizations": {
     "comments": "#8f6af3" // color de los comentarios dentro del editor
   },
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all"*/
 }

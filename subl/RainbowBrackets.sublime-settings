@@ -1,0 +1,37 @@
+/*
+  RainbowBrackets user settings in here override the default
+*/
+{
+    "debug": false,
+
+    "default_config": {
+        "bracket_pairs": {
+            "(": ")",
+            "[": "]",
+            "{": "}"
+        },
+
+        "coloring": true,
+
+        "enabled": true,
+
+        "ignored_scopes": [
+            "comment",
+            "string",
+            "constant"
+        ],
+
+        "rainbow_colors": [
+            "#FF75B5", // level0
+            "#19f9d8", // level2
+            "#B084EB", // level3
+            "#45A9F9", // level4
+            "#FFB86C", // level5
+            "#6CC10F",          
+            "#E6E6E6"  
+        ],
+
+        "mismatch_color": "#FF2C6D"
+    },
+
+}
