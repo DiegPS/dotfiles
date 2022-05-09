@@ -1,5 +1,5 @@
 {
-  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.enabled": true, // permitir navegación de directorios anidados
   "editor.minimap.enabled": false, // desactivar minimapa
   "editor.renderWhitespace": "all", // mostrar espacios en blanco
   "editor.wordWrap": "on", // ajustar texto
@@ -9,6 +9,7 @@
   "editor.fontLigatures": true, // ligaduras
   "editor.cursorStyle": "block", // Estilo del cursor: línea delgada
   "editor.cursorBlinking": "blink", // Animación del cursor
+  "editor.guides.highlightActiveIndentation": "always", // resaltar indentación activa
   "editor.lineHeight": 1.8, // Altura de línea
   "files.trimFinalNewlines": true, // quitar nuevas lineas
   "editor.suggestSelection": "first", // seleccionar primera sugerencia
@@ -57,40 +58,42 @@
     "package-lock.json": true,
     "yarn.lock": true
   }, // Deshabilita la barra de estado
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.wrapTabs": false,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "workbench.editor.enablePreview": false,
-  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDragAndDrop": false, // Deshabilita la confirmación al arrastrar y soltar
+  "explorer.confirmDelete": false, // Deshabilita la confirmación al eliminar
+  "workbench.editor.enablePreviewFromQuickOpen": false, // Deshabilita la vista previa de los archivos
+  "workbench.editor.wrapTabs": false, // Deshabilita el ajuste de pestañas
+  "window.confirmBeforeClose": "always", // Habilita la confirmación al cerrar
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true, // Habilita los tipos de retorno en typescript
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true, // habilita sugerencias de tipos de retorno
+  "workbench.editor.enablePreview": false, // Deshabilita la vista previa de los archivos
+  "extensions.ignoreRecommendations": true, // Deshabilita las recomendaciones de extensiones
   "editor.fontFamily": "'JetBrainsMono Nerd Font'", // Fuente de la línea de código
   "editor.fontSize": 16, // tamaño de fuente del editor
-  "telemetry.telemetryLevel": "off",
-  "settingsSync.keybindingsPerPlatform": false,
+  "telemetry.telemetryLevel": "off", // Deshabilita la telemetría de VS Code
+  "settingsSync.keybindingsPerPlatform": false, // Deshabilita la sincronización de teclas de acceso rápido
   "editor.suggest.showSnippets": false, // ver snippets eliminado
   "editor.snippetSuggestions": "none", // eliminar sugerencia de snippets
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.suggest.completeFunctionCalls": true,
-  "typescript.suggest.completeFunctionCalls": true,
-  "editor.suggest.preview": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false, // eliminar sugerencia de snippets en el editor
+  "javascript.updateImportsOnFileMove.enabled": "always", // habilita el movimiento de archivos de JS
+  "javascript.suggest.completeFunctionCalls": true, // habilita la autocompletación de llamadas de funciones
+  "typescript.suggest.completeFunctionCalls": true, // habilita la autocompletación de llamadas de funciones
+  "editor.suggest.preview": true, // habilita la vista previa de los archivos
   "javascript.referencesCodeLens.enabled": true,
   "javascript.referencesCodeLens.showOnAllFunctions": true,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
-  "diffEditor.codeLens": true,
-  "editor.codeLensFontSize": 16,
+  "diffEditor.codeLens": true, // habilita los códigos lens en el diff editor
+  "editor.codeLensFontSize": 16, // tamaño de fuente de los códigos lens
   "emmet.includeLanguages": {
     "javascript": "javascriptreact" // usar emmet dentro de JSX
   },
-  "window.zoomLevel": 1,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": false, // Deshabilita la barra de estado
   "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#121318", // color de fondo de la barra de título
+    "titleBar.inactiveBackground": "#0B0D13", // color de fondo de la barra de título inactivo
     "editorGroup.dropBackground": "#3700ff38", // Color de fondo de la pestaña
-    "editor.background": "#121318",
+    "editor.background": "#121318", // color de fondo del editor
     "input.background": "#0B0D13", // Color de fondo del editor
     "list.hoverBackground": "#4400ff83", // Color de fondo del editor al pasar el cursor por encima
     "badge.background": "#0B0D13", // Color de fondo de los badges de la barra de estado
@@ -100,7 +103,7 @@
     "button.background": "#6200ff", // Color de fondo de los botones
     "input.border": "#6200ff", // Color del borde de los inputs
     "checkbox.border": "#6200ff", // Color del borde de los checkbox
-    "list.inactiveSelectionBackground": "#36007e56",
+    "list.inactiveSelectionBackground": "#36007e56", // Color de fondo de la selección inactiva
     "list.activeSelectionBackground": "#6200ff", // Color de fondo de la selección activa
     "editorWidget.background": "#0f111a", // Color de fondo de los widgets de editor
     "icon.foreground": "#ffffff", // Color del texto de los iconos
@@ -112,11 +115,11 @@
     "editor.lineHighlightBackground": "#2903811e", // Color de resaltado de línea
     "editor.selectionBackground": "#6200ff2a", // Color de resaltado de selección
     "dropdown.background": "#0B0D13", // menu hacia abajo en el fondo
-    "editorLineNumber.foreground": "#291a53",
-    "editorLineNumber.activeForeground": "#6200ff",
-    "activityBar.background": "#181A26",
-    "statusBar.background": "#6200ff",
-    "statusBar.noFolderBackground": "#6200ff"
+    "editorLineNumber.foreground": "#291a53", // Color de los números de línea
+    "editorLineNumber.activeForeground": "#6200ff", // Color de los números de línea activos
+    "activityBar.background": "#181A26", // Color de fondo de la barra de actividad
+    "statusBar.background": "#6200ff", // Color de fondo de la barra de estado
+    "statusBar.noFolderBackground": "#6200ff" // Color de fondo de la barra de estado sin carpeta
   },
   "editor.tokenColorCustomizations": {
     "comments": "#8f6ded", // color de los comentarios dentro del editor
@@ -157,21 +160,24 @@
           "source.js constant.other.object.key.js string.unquoted.label.js",
         ],
         "settings": {
-          "fontStyle": "italic",
+          "fontStyle": "italic", // italic font
         }
       },
     ]
   },
-  "typescript.format.insertSpaceAfterConstructor": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-  "javascript.inlayHints.enumMemberValues.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "javascript.inlayHints.parameterTypes.enabled": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all"
+  "typescript.format.enable": true, // habilita el formato de TS
+  "typescript.suggest.autoImports": true, // habilita la autocompletación de imports
+  "editor.inlayHints.enabled": "on", // habilita las sugerencias de inlay hints
+  "typescript.format.insertSpaceAfterConstructor": true, // insertar espacio después de los constructores de TS
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true, // insertar espacio después de los corchetes de JSX
+  "javascript.inlayHints.enumMemberValues.enabled": true, // habilita los valores de los enumerados en los hints
+  "javascript.inlayHints.parameterNames.enabled": "all", // habilita los nombres de parámetros en los hints
+  "javascript.inlayHints.parameterTypes.enabled": true, // habilita los tipos de parámetros en los hints
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true, // habilita los tipos de propiedades en los hints
+  "javascript.inlayHints.variableTypes.enabled": true, // habilita los tipos de variables en los hints
+  "typescript.inlayHints.enumMemberValues.enabled": true, // habilita los valores de los enumerados en los hints
+  "typescript.inlayHints.variableTypes.enabled": true, // habilita los tipos de variables en los hints
+  "typescript.inlayHints.parameterTypes.enabled": true, // habilita los tipos de parámetros en los hints
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true, // habilita los tipos de propiedades en los hints
+  "typescript.inlayHints.parameterNames.enabled": "all" // habilita los nombres de parámetros en los hints
 }
