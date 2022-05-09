@@ -1,0 +1,78 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#121318", // color de fondo de la barra de título
+    "titleBar.inactiveBackground": "#0B0D13", // color de fondo de la barra de título inactivo
+    "editorGroup.dropBackground": "#3700ff38", // Color de fondo de la pestaña
+    "editor.background": "#121318", // color de fondo del editor
+    "input.background": "#0B0D13", // Color de fondo del editor
+    "list.hoverBackground": "#4400ff83", // Color de fondo del editor al pasar el cursor por encima
+    "badge.background": "#0B0D13", // Color de fondo de los badges de la barra de estado
+    "panel.background": "#0B0D13", // Color de fondo de los paneles
+    "menu.background": "#10121A", // Color de fondo del menú
+    "sideBar.background": "#10121A", // Color de fondo de la barra lateral
+    "button.background": "#6200ff", // Color de fondo de los botones
+    "input.border": "#6200ff", // Color del borde de los inputs
+    "checkbox.border": "#6200ff", // Color del borde de los checkbox
+    "list.inactiveSelectionBackground": "#36007e56", // Color de fondo de la selección inactiva
+    "list.activeSelectionBackground": "#6200ff", // Color de fondo de la selección activa
+    "editorWidget.background": "#0f111a", // Color de fondo de los widgets de editor
+    "icon.foreground": "#ffffff", // Color del texto de los iconos
+    "focusBorder": "#6200ff", // Color del borde de los inputs
+    "dropdown.border": "#6200ff", // Color del borde de los dropdown
+    "tab.inactiveBackground": "#10121A", // Color de fondo de las pestañas inactivas
+    "tab.activeBorderTop": "#6200ff", // Color de borde superior de la pestaña activa
+    "editorGroupHeader.tabsBackground": "#10121A", // Color de fondo de las pestañas de grupo de editor
+    "editor.lineHighlightBackground": "#2903811e", // Color de resaltado de línea
+    "editor.selectionBackground": "#6200ff2a", // Color de resaltado de selección
+    "dropdown.background": "#0B0D13", // menu hacia abajo en el fondo
+    "editorLineNumber.foreground": "#291a53", // Color de los números de línea
+    "editorLineNumber.activeForeground": "#6200ff", // Color de los números de línea activos
+    "activityBar.background": "#181A26", // Color de fondo de la barra de actividad
+    "statusBar.background": "#6200ff", // Color de fondo de la barra de estado
+    "statusBar.noFolderBackground": "#6200ff" // Color de fondo de la barra de estado sin carpeta
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#8f6ded", // color de los comentarios dentro del editor
+    "textMateRules": [
+      {
+        "name": "italic font",
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "keyword.control",
+          "keyword.control.from",
+          "keyword.control.flow",
+          "keyword.operator.new",
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.default",
+          "keyword.control.trycatch",
+          "keyword.control.conditional",
+          "storage.type",
+          "storage.type.class",
+          "storage.modifier.tsx",
+          "storage.type.function",
+          "storage.modifier.async",
+          "variable.language",
+          "variable.language.this",
+          "variable.language.super",
+          "meta.class",
+          "meta.var.expr",
+          "constant.language.null",
+          "support.type.primitive",
+          "entity.name.method.js",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js",
+        ],
+        "settings": {
+          "fontStyle": "italic", // italic font
+        }
+      },
+    ]
+  },
+}
