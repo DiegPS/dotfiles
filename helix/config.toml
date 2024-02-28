@@ -1,0 +1,41 @@
+theme = "tokyonight"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+render = true
+
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes= true
+mouse = false
+true-color = true
+bufferline = "multiple"
+middle-click-paste = false
+insert-final-newline = true
+
+[editor.statusline]
+mode.normal = "N O R M A L"
+mode.insert = "I N S E R T"
+mode.select = "S E L E C T"
+left = ["file-name", "spinner", "file-modification-indicator","read-only-indicator"]
+center = ["mode"]
+right = ["diagnostics","selections","register","position","version-control"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.whitespace.render]
+newline = "none"
+space = "all"
+tab = "all"
+tabpad = "all"
+nbsp = "all"
