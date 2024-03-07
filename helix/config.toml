@@ -1,4 +1,4 @@
-theme = "tokyonight"
+theme = "tokyonight_transparent"
 
 [editor.lsp]
 display-messages = true
