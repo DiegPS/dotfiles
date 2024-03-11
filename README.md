@@ -7,3 +7,17 @@ Algunas configuraciones y un tema hecho precisamente para el mismo.
 ## Sublime Text
 Configuraciones de shortcuts and default settings or extensions settings
 
+## Helix
+
+primero debemos instalar helix posteriormente copiar los archivos correspondientes
+
+para instalar los lang servers en arch linux puedes usar por ejemplo para el de go
+
+sudo pacman -S gopls
+
+si hablamos de cosas de javascript podrias usar volta
+
+volta install typescript
+
+volta install @astrojs/language-server
+
