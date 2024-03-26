@@ -1,2 +1,3 @@
 [build]
-rustc-wrapper·=·"C:/Users/diego/.cargo/bin/sccache.exe"
+rustc-wrapper = "C:\\Users\\diego\\.cargo\\bin\\sccache.exe"
+rustflags = ["-Z", "threads=8"]
