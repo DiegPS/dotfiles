@@ -1,0 +1,2 @@
+[build]
+rustc-wrapper·=·"C:/Users/diego/.cargo/bin/sccache.exe"
