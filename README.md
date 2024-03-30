@@ -21,3 +21,18 @@ volta install typescript
 
 volta install @astrojs/language-server
 
+# windows instalaciones mediante winget
+
+winget install fzf
+
+winget install sharkdp.fd
+
+winget install --id lsd-rs.lsd
+
+winget install sharkdp.bat
+
+winget install clink
+
+winget install helix
+
+winget install BurntSushi.ripgrep.MSVC
