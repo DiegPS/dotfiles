@@ -23,6 +23,11 @@ volta install @astrojs/language-server
 
 # windows instalaciones mediante winget
 
+### Starship prompt para la terminal
+
+```sh
+winget install starship
+```
 ### FZF
 
 ```sh
