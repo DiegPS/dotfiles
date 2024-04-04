@@ -23,16 +23,57 @@ volta install @astrojs/language-server
 
 # windows instalaciones mediante winget
 
+### FZF
+
+```sh
 winget install fzf
+```
 
+### FD
+
+```sh
 winget install sharkdp.fd
+```
 
+### lsd
+
+```sh
 winget install --id lsd-rs.lsd
+```
 
+### BAT
+
+```sh
 winget install sharkdp.bat
+```
 
+### clink
+
+```sh
 winget install clink
+```
 
+### Helix
+
+```sh
 winget install helix
+```
 
+### RipGrep
+
+```sh
 winget install BurntSushi.ripgrep.MSVC
+```
+
+# cursito express de cmd
+
+hacer un rm -rf
+
+```sh
+rd /s /q carpeta
+```
+listar directorios
+
+```sh
+dir
+```
