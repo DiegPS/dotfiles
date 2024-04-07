@@ -82,3 +82,31 @@ listar directorios
 ```sh
 dir
 ```
+
+# WSL Windows
+
+```sh
+wsl --install
+```
+
+una vez en ubuntu god que sera el que se instale por defecto hacemos un...
+
+```sh
+sudo apt update
+```
+
+```sh
+sudo apt upgrade
+```
+
+ahora vamos a instalar nuestra primera herramienta que sera un reemplazo a apt en este caso sera `nala`
+
+```sh
+sudo apt install nala
+```
+
+instalamos neofetch para fresear
+
+```sh
+sudo nala install neofetch
+```
