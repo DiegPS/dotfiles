@@ -13,13 +13,32 @@ primero debemos instalar helix posteriormente copiar los archivos correspondient
 
 para instalar los lang servers en arch linux puedes usar por ejemplo para el de go
 
+```sh
 sudo pacman -S gopls
+```
 
 si hablamos de cosas de javascript podrias usar volta
 
-volta install typescript
+```sh
+volta install typescript @ansible/ansible-language-server @astrojs/language-server bash-language-server vscode-langservers-extracted dockerfile-language-server-nodejs
+```
+```sh
+volta install dot-language-server elm elm-test elm-format @elm-tooling/elm-language-server graphql-language-service-cli lean-language-server sql-language-server
+```
 
-volta install @astrojs/language-server
+```sh
+volta install markdoc-ls @prisma/language-server pyright svelte-language-server typescript-svelte-plugin @tailwindcss/language-server typescript-language-server
+```
+
+```sh
+volta install prettier @vue/language-server yaml-language-server@next
+```
+
+los que son propitarios
+
+```sh
+volta install intelephense
+```
 
 # windows instalaciones mediante winget
 
