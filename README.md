@@ -7,6 +7,16 @@ Algunas configuraciones y un tema hecho precisamente para el mismo.
 ## Sublime Text
 Configuraciones de shortcuts and default settings or extensions settings
 
+windows optimizar rendimiento usando sccache para las builds y la configuracion de los cores.
+
+```sh
+cargo install sccache --locked
+```
+
+busca tu `~\.cargo` en windows en tu usuario... por ejemplo `C:\Users\diego\.cargo` y dentro si no existe...
+coloca un archivo `config.toml`
+
+
 ## Helix
 
 primero debemos instalar helix posteriormente copiar los archivos correspondientes
