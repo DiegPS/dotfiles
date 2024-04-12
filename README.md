@@ -57,7 +57,6 @@ volta install intelephense
 winget install --id=dbrgn.tealdeer  -e
 ```
 
-
 ### Starship prompt para la terminal
 
 ```sh
