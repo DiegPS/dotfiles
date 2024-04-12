@@ -52,6 +52,12 @@ volta install intelephense
 
 # windows instalaciones mediante winget
 
+### Tealdeer tldr
+```sh
+winget install --id=dbrgn.tealdeer  -e
+```
+
+
 ### Starship prompt para la terminal
 
 ```sh

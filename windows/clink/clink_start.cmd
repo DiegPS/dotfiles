@@ -7,6 +7,12 @@ doskey edge=start msedge
 
 doskey neofetch=wsl neofetch
 
+doskey rm=rd /s /q $*
+doskey cp=copy $*
+doskey mv=move $*
+doskey man=help $*
+doskey diff= fc $*
+
 doskey l=lsd --git --group-directories-first $*
 doskey ls=lsd --git --group-directories-first $*
 doskey ll=lsd --git --group-directories-first -l $*
