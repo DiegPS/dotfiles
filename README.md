@@ -105,7 +105,7 @@ winget install helix
 winget install BurntSushi.ripgrep.MSVC
 ```
 
-# cursito express de cmd
+# cursito express de cmd para `unix users`
 
 hacer un rm -rf
 
@@ -118,13 +118,38 @@ listar directorios
 dir
 ```
 
+borrar cositas
+
+```sh
+del cosita
+```
+
+el `cp` de windows
+
+```sh
+copy
+```
+
+el mv de windows
+
+```sh
+move
+```
+
+el rename de windows
+
+```sh
+ren
+```
+
+
 # WSL Windows
 
 ```sh
 wsl --install
 ```
 
-una vez en ubuntu god que sera el que se instale por defecto hacemos un...
+una vez en ubuntu que sera el que se instale por defecto hacemos un...
 
 ```sh
 sudo apt update
