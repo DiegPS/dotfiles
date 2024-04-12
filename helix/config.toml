@@ -1,4 +1,4 @@
-theme = "tokyonight_transparent"
+theme = "ayu_mirage_transparent"
 
 [editor.lsp]
 display-messages = true
