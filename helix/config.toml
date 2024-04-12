@@ -39,3 +39,9 @@ space = "all"
 tab = "all"
 tabpad = "all"
 nbsp = "all"
+
+[keys.normal]
+C-o = ":config-open"
+C-r = ":config-reload"
+C-s = ":w"
+A-left = "move_next_word_start"
