@@ -12,6 +12,7 @@ doskey cp=copy $*
 doskey mv=move $*
 doskey man=help $*
 doskey diff= fc $*
+doskey fzp=fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"
 
 doskey l=lsd --git --group-directories-first $*
 doskey ls=lsd --git --group-directories-first $*
