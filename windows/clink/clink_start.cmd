@@ -7,6 +7,9 @@ doskey edge=start msedge
 
 doskey neofetch=wsl neofetch
 
+doskey tkl=tasklist
+doskey tkk=taskkill /f /pid $*
+
 doskey rm=rd /s /q $*
 doskey cp=copy $*
 doskey mv=move $*
