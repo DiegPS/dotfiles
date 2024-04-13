@@ -67,6 +67,12 @@ Uno de los de la lista que es propietario y que en este caso es para `Php` seria
 volta install intelephense
 ```
 
+## Herramientas para mejorar tu flujo de trabajo
+
+```sh
+volta install @microsoft/inshellisense
+```
+
 ## Instalaciones mediante Winget (Windows)
 
 ### Tealdeer (tldr)
