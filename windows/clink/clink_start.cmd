@@ -6,6 +6,7 @@ doskey cat=bat --paging=never -p $*
 doskey edge=start msedge
 
 doskey neofetch=wsl neofetch
+doskey volumen=%windir%\System32\SndVol.exe -f 49825268
 
 doskey tkl=tasklist
 doskey tkk=taskkill /f /pid $*
