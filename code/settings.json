@@ -15,8 +15,7 @@
   "editor.suggestSelection": "first", // seleccionar primera sugerencia
   "breadcrumbs.enabled": false, // Deshabilita las rutas de navegación
   "javascript.validate.enable": true, // Deshabilita la validación de JS
-  "workbench.startupEditor": "none", // Deshabilita el editor de inicio
-  "workbench.activityBar.visible": false, // Deshabilita la barra de actividades
+  "workbench.startupEditor": "none", // Deshabilita la barra de actividades
   "window.menuBarVisibility": "toggle", // Deshabilita la barra de menú
   "editor.glyphMargin": false, // Deshabilita los símbolos de la línea de código (Glyph Margin)
   "editor.inlineSuggest.enabled": true, // habilita sugerencias
@@ -30,7 +29,6 @@
   "editor.formatOnSave": true, // Formatea el código al guardar
   "editor.linkedEditing": true, // habilita edición enlazada
   "workbench.editor.tabCloseButton": "off", // Remueve el icono para cerrar pestañas
-  "files.trimTrailingWhitespace": true, // Remueve los espacios en blanco al final de una línea
   "timeline.excludeSources": [], // Excluye los archivos de la línea de tiempo
   "files.exclude": { // archivos excluidos
     "**/.git": true,
@@ -96,7 +94,7 @@
   "zenMode.showTabs": "none", // deshabilita las pestañas en el modo zen
   "editor.lineNumbers": "relative", // números de línea relativos
   "workbench.editor.tabActionCloseVisibility": false, // deshabilita el icono de cerrar pestañas
-  "editor.inlayHints.enabled": "on", // habilita las sugerencias de inlay hints
+  "editor.inlayHints.enabled": "onUnlessPressed", // habilita las sugerencias de inlay hints
   "typescript.inlayHints.parameterNames.enabled": "all", // habilita los nombres de parámetros en los hints
   "editor.inlayHints.fontSize": 10, // tamaño de fuente de los hints
   "go.inlayHints.assignVariableTypes": true,
@@ -129,4 +127,22 @@
     "editorInlayHint.typeForeground": "#ff0080",
     "editorInlayHint.parameterForeground": "#17B890"
   },
+  "window.restoreWindows": "none", // deshabilita la restauración de ventanas al iniciar VS Code nuevamente
+  "zenMode.restore": false, // deshabilita la restauración del modo zen
+  "window.restoreFullscreen": false, // deshabilita la restauración de pantalla completa
+  "workbench.colorTheme": "Tokyo Night", // Tema de color
+  "workbench.iconTheme": "material-icon-theme", // Tema de iconos
+  "workbench.settings.enableNaturalLanguageSearch": false, // habilita la búsqueda de lenguaje natural
+  "workbench.tree.indent": 16, // indentación del árbol de archivos
+  "workbench.tree.renderIndentGuides": "always", // renderiza las guías de indentación
+  "workbench.list.smoothScrolling": true, // desplazamiento suave
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.autoClosingTags": true,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
 }
