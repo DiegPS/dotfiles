@@ -63,8 +63,6 @@
   "workbench.editor.enablePreviewFromQuickOpen": false, // Deshabilita la vista previa de los archivos
   "workbench.editor.wrapTabs": false, // Deshabilita el ajuste de pestañas
   "window.confirmBeforeClose": "always", // Habilita la confirmación al cerrar
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true, // Habilita los tipos de retorno en typescript
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true, // habilita sugerencias de tipos de retorno
   "workbench.editor.enablePreview": false, // Deshabilita la vista previa de los archivos
   "extensions.ignoreRecommendations": true, // Deshabilita las recomendaciones de extensiones
   "editor.fontFamily": "'JetBrainsMono Nerd Font'", // Fuente de la línea de código
@@ -91,9 +89,30 @@
   "workbench.statusBar.visible": false, // Deshabilita la barra de estado
   "typescript.format.enable": true, // habilita el formato de TS
   "typescript.suggest.autoImports": true, // habilita la autocompletación de imports
-  "editor.inlayHints.enabled": "on", // habilita las sugerencias de inlay hints
   "typescript.format.insertSpaceAfterConstructor": true, // insertar espacio después de los constructores de TS
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true, // insertar espacio después de los corchetes de JSX
+  "workbench.editor.showTabs": "none", // deshabilita las pestañas
+  "workbench.activityBar.location": "hidden", // deshabilita la barra de actividades
+  "zenMode.showTabs": "none", // deshabilita las pestañas en el modo zen
+  "editor.lineNumbers": "relative", // números de línea relativos
+  "workbench.editor.tabActionCloseVisibility": false, // deshabilita el icono de cerrar pestañas
+  "editor.inlayHints.enabled": "on", // habilita las sugerencias de inlay hints
+  "typescript.inlayHints.parameterNames.enabled": "all", // habilita los nombres de parámetros en los hints
+  "editor.inlayHints.fontSize": 10, // tamaño de fuente de los hints
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "editor.inlayHints.padding": true,
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true, // Habilita los tipos de retorno en typescript
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true, // habilita sugerencias de tipos de retorno
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
   "javascript.inlayHints.enumMemberValues.enabled": true, // habilita los valores de los enumerados en los hints
   "javascript.inlayHints.parameterNames.enabled": "all", // habilita los nombres de parámetros en los hints
   "javascript.inlayHints.parameterTypes.enabled": true, // habilita los tipos de parámetros en los hints
@@ -103,5 +122,11 @@
   "typescript.inlayHints.variableTypes.enabled": true, // habilita los tipos de variables en los hints
   "typescript.inlayHints.parameterTypes.enabled": true, // habilita los tipos de parámetros en los hints
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true, // habilita los tipos de propiedades en los hints
-  "typescript.inlayHints.parameterNames.enabled": "all" // habilita los nombres de parámetros en los hints
+  "workbench.colorCustomizations": {
+    "editorInlayHint.foreground": "#3a3a3a",
+    "editorInlayHint.parameterBackground": "#0b0d1348",
+    "editorInlayHint.background": "#0b0d1348",
+    "editorInlayHint.typeForeground": "#ff0080",
+    "editorInlayHint.parameterForeground": "#17B890"
+  },
 }
