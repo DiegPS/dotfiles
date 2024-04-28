@@ -125,13 +125,12 @@
     "editorInlayHint.parameterBackground": "#0b0d1348",
     "editorInlayHint.background": "#0b0d1348",
     "editorInlayHint.typeForeground": "#ff0080",
-    "editorInlayHint.parameterForeground": "#17B890"
+    "editorInlayHint.parameterForeground": "#17B890",
+    "editorCursor.foreground": "#FFBD00"
   },
   "window.restoreWindows": "none", // deshabilita la restauración de ventanas al iniciar VS Code nuevamente
   "zenMode.restore": false, // deshabilita la restauración del modo zen
   "window.restoreFullscreen": false, // deshabilita la restauración de pantalla completa
-  "workbench.colorTheme": "Tokyo Night", // Tema de color
-  "workbench.iconTheme": "material-icon-theme", // Tema de iconos
   "workbench.settings.enableNaturalLanguageSearch": false, // habilita la búsqueda de lenguaje natural
   "workbench.tree.indent": 16, // indentación del árbol de archivos
   "workbench.tree.renderIndentGuides": "always", // renderiza las guías de indentación
@@ -145,4 +144,10 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "workbench.colorTheme": "Tokyo Night", // Tema de color
+  "workbench.iconTheme": "material-icon-theme", // Tema de iconos
+  "vim.useCtrlKeys": false,
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.visual": "underline"
 }
