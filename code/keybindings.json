@@ -1,0 +1,8 @@
+[
+    {
+      "key": "ctrl+a",
+      "command": "workbench.files.action.createFileFromExplorer",
+      "when": "explorerViewletFocus"
+    }
+  ]
+  
