@@ -79,6 +79,11 @@ volta install @microsoft/inshellisense
 ```sh
 winget install --id=dbrgn.tealdeer  -e
 ```
+### LazyGit
+
+```sh
+winget install -e --id=JesseDuffield.lazygit
+```
 
 ### Starship (prompt para la terminal)
 
