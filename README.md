@@ -85,6 +85,12 @@ winget install --id=dbrgn.tealdeer  -e
 winget install -e --id=JesseDuffield.lazygit
 ```
 
+### Zoxide
+
+```sh
+winget install zoxide
+```
+
 ### Starship (prompt para la terminal)
 
 ```sh
