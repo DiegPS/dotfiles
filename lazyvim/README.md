@@ -11,6 +11,14 @@ por ejemplo los siguientes:
 - Catppuccin
 - NeoTree
 
+## si lo usaras en `ubuntu` `wsl` necesitaras
+
+```sh
+sudo apt install build-essential
+```
+
+necesitas un compilador para usar treesitter en neovim por esa razon es, en windows seria de una forma diferente la instalacio.
+
 por defecto `LazyVim` tiene dos themes bastante destacables y el que tiene es `TokyoNight` el cual uso yo, asi que por eso tengo desactivado Catppuccin, si quisieras que fuera al contrario tendrias que hacer esto.
 
 ```lua
