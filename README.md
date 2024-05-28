@@ -213,6 +213,10 @@ Posteriormente, una vez instalado `nala` podemos probar que esta instalado corre
 sudo nala install neofetch
 ```
 
+```sh
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
 ## Visual Studio Code
 Algunas configuraciones y un tema hecho precisamente para el mismo.
 
