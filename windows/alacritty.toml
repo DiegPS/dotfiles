@@ -1,0 +1,62 @@
+live_config_reload = true
+
+# [shell]
+# program = "pwsh"
+# args =["--nologo", "-WorkingDirectory ~"]
+
+[shell]
+program = "cmd"
+args = ["/k", "cd %HOMEDRIVE%%HOMEPATH%"]
+
+[colors.bright]
+black = "0x444b6a"
+blue = "0x7da6ff"
+cyan = "0x0db9d7"
+green = "0xb9f27c"
+magenta = "0xbb9af7"
+red = "0xff7a93"
+white = "0xacb0d0"
+yellow = "0xff9e64"
+
+[colors.normal]
+black = "0x32344a"
+blue = "0x7aa2f7"
+cyan = "0x449dab"
+green = "0x9ece6a"
+magenta = "0xad8ee6"
+red = "0xf7768e"
+white = "0x787c99"
+yellow = "0xe0af68"
+
+[colors.primary]
+background = "0x1a1b26"
+foreground = "0xa9b1d6"
+
+[font]
+size = 12
+builtin_box_drawing = true
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+
+[font.offset]
+x = 0
+y = 0
+
+[window]
+decorations = "None"
+opacity = 0.95
+startup_mode = "Maximized"
+
+[font.glyph_offset]
+x = 0
+y = 0
