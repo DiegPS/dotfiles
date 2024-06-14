@@ -1,5 +1,6 @@
 {
   "explorer.fileNesting.enabled": true, // permitir navegación de directorios anidados
+  "editor.folding": false,
   "editor.minimap.enabled": false, // desactivar minimapa
   "editor.renderWhitespace": "all", // mostrar espacios en blanco
   "editor.wordWrap": "on", // ajustar texto
